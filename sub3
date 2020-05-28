@@ -1,0 +1,24 @@
+#list
+list1 = [1,2,3,4]
+print(list1)
+list2 = ['aish','abhi']
+print(list2)
+
+#tuple
+t=(1,2,3,4,5)
+print(t)
+print(t[0])
+print(t[2])
+print(t[4])
+
+#dict
+d={
+    "aish":"1st yr",
+    "abhi":"10th",
+    "anand":"work",
+    "lalitha":"work",
+    "x":"y"
+}
+print(d)
+del d["x"]
+print(d)
